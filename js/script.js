@@ -2,18 +2,14 @@
  * JavaScript
  */
 
-const key = 'abc123';
-let points = 50;
-let winner = false;
-
-if (points > 40) {
-  let winner = true;
-}
-
-points = 60;
-// key = 'abc12345';
-
-const person = {
-  name: 'Harry',
-  age: 24,
+{
+  const name = 'harry';
+  console.log(name);
 };
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+  setTimeout(() => {
+    console.log(`The Number is ${i }`);
+  }, 1000)
+}
